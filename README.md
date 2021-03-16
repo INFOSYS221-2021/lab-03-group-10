@@ -57,6 +57,19 @@ SET element as Current in value
 FOR each element, compare with the next element
 IF element is higher, swap
 
+v3
+START 
+INPUT values
+SET lastValue <--nothing
+SET lastPosition <-- nothing
 
+FOR each value Current in values
+	IF lastValue == nothing
+		SET lastValue <-- Current
+		SET lastPosition <-- currentPosition
+		INCREMENT
+
+	ELSEIF lastValue > currentValue
+		SET currentValue <-- lastPosition
 
 
