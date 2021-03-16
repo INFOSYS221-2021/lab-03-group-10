@@ -63,6 +63,36 @@ INPUT values
 SET lastValue <--nothing
 SET lastPosition <-- nothing
 
+Exercise 03
+V1
+Get list 1
+Get list 2
+Init ListCN --commonNumber
+IF the number is on both list 1 and list 2, add to ListCN
+Get highest number from ListCN.
+
+V2
+Get list 1
+Get list 2
+Init ListCN --commonNumber
+IF the number is on both list 1 and list 2, add to ListCN
+For everyone number in list 1
+IF in list 2
+Add ListCN
+Get highest number from ListCN.
+
+V3 –- good enough, if have time, then work on better version next.
+Get list 1
+Get list 2
+Init ListCN --commonNumber
+IF the number is on both list 1 and list 2, add to ListCN
+For everyone number in list 1
+IF in list 2
+Add ListCN
+Get highest number from ListCN.
+![image](https://user-images.githubusercontent.com/79881062/111242289-bdda0b80-8663-11eb-8954-4ce99ed8638c.png)
+
+
 FOR each value Current in values
 	IF lastValue == nothing
 		SET lastValue <-- Current
