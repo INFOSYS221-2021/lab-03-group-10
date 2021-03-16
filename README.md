@@ -68,8 +68,7 @@ FOR each value Current in values
 		SET lastValue <-- Current
 		SET lastPosition <-- currentPosition
 		INCREMENT
-
-	ELSEIF lastValue > currentValue
+                ELSEIF lastValue > currentValue
 		SET currentValue <-- lastPosition
 
 
